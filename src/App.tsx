@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const SectionTitle = ({ children, subtitle, align = 'center' }: { children: React.ReactNode, subtitle?: string, align?: 'center' | 'left' }) => (
+const SectionTitle = ({ children, subtitle, align = 'center', light = false }: { children: React.ReactNode, subtitle?: string, align?: 'center' | 'left', light?: boolean }) => (
   <div className={`mb-16 ${align === 'center' ? 'text-center' : 'text-left'} px-4`}>
     <motion.h2 
       initial={{ opacity: 0, y: 20 }}
@@ -22,7 +22,7 @@ const SectionTitle = ({ children, subtitle, align = 'center' }: { children: Reac
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.1 }}
-        className={`text-lg md:text-xl text-slate-500 font-medium ${align === 'center' ? 'mx-auto' : ''} max-w-2xl`}
+        className={`text-lg md:text-xl font-medium ${align === 'center' ? 'mx-auto' : ''} max-w-2xl ${light ? 'text-slate-300' : 'text-slate-500'}`}
       >
         {subtitle}
       </motion.p>
@@ -211,7 +211,7 @@ export default function App() {
       {/* 8. OVERVIEW & 9. SYLLABUS (Horizontal Timeline + List) */}
       <section className="py-32 bg-slate-900 text-white overflow-hidden">
         <div className="container mx-auto px-6">
-          <SectionTitle subtitle="Lộ trình và thông tin tổng quan của buổi học thử nghiệm">Hành trình 4 Giờ Thay Đổi</SectionTitle>
+          <SectionTitle light subtitle="Lộ trình và thông tin tổng quan của buổi học thử nghiệm">Hành trình 4 Giờ Thay Đổi</SectionTitle>
           
           {/* Overview badges */}
           <div className="flex flex-wrap items-center justify-center gap-6 mb-24">
@@ -278,7 +278,7 @@ export default function App() {
          <div className="absolute inset-0 bg-white/10 opacity-30 mask-lines" />
          <div className="container mx-auto px-6 text-center relative z-10">
             <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight uppercase leading-tight">
-               Bạn sẽ không chỉ học <br/> <span className="text-orange-900">Bạn sẽ làm.</span>
+               Bạn sẽ không chỉ học <br/> <span className="text-orange-100">Bạn sẽ làm.</span>
             </h2>
          </div>
       </section>
@@ -338,7 +338,7 @@ export default function App() {
       {/* 14. WHO SHOULD JOIN */}
       <section className="py-32 bg-slate-900 text-white border-b border-white/10">
         <div className="container mx-auto px-6">
-          <SectionTitle subtitle="Chương trình này thiết kế riêng cho nhóm đối tượng cụ thể đáp ứng nhu cầu tiết kiệm thời gian">Phân loại Đối Tượng</SectionTitle>
+          <SectionTitle light subtitle="Chương trình này thiết kế riêng cho nhóm đối tượng cụ thể đáp ứng nhu cầu tiết kiệm thời gian">Phân loại Đối Tượng</SectionTitle>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem]">
                 <h3 className="text-3xl font-bold mb-8 text-green-400">Nên tham gia</h3>
