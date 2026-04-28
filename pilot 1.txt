@@ -1,0 +1,181 @@
+# LANDING PAGE: AI BASIC THỰC CHIẾN CHO CÔNG VIỆC & HỌC TẬP
+
+---
+
+## 1. HERO SECTION (Above the fold)
+- Layout: 2 cột (trái text – phải hình minh họa AI + laptop)
+- Background: Gradient xanh đậm (#0F172A → #1E3A8A)
+- Headline:
+  "Biết AI không còn đủ – Bạn cần biết dùng AI để tiết kiệm 3-5h mỗi ngày"
+- Sub:
+  Workshop 4 giờ – Cầm tay chỉ việc – Làm được ngay
+- CTA chính:
+  [Đăng ký ngay] (màu cam #F97316)
+- CTA phụ:
+  [Xem nội dung khóa học]
+
+---
+
+## 2. SOCIAL PROOF QUICK BAR
+- Layout: 4 icon ngang
+- Nội dung:
+  - 4 giờ thực hành
+  - 70% hands-on
+  - 1 workflow cá nhân
+  - 1 bộ prompt mang về
+- Background: trắng
+
+---
+
+## 3. PAIN POINT (Đánh trúng insight)
+- Background: xám nhạt #F1F5F9
+- Title:
+  "Bạn có đang gặp vấn đề này?"
+- Bullet:
+  - Biết ChatGPT nhưng dùng không hiệu quả
+  - Mất thời gian chỉnh sửa output
+  - Không biết dùng tool nào cho việc nào
+  - Làm việc vẫn thủ công, AI không giúp được nhiều
+
+---
+
+## 4. CONSEQUENCE (Đào sâu đau)
+- Layout: 3 cards
+- Nội dung:
+  - Lãng phí thời gian mỗi ngày
+  - Output thiếu chuyên nghiệp
+  - Không bắt kịp người khác đang dùng AI tốt hơn
+
+---
+
+## 5. BIG IDEA (Giải pháp)
+- Background: gradient xanh sáng
+- Title:
+  "AI không phải là công cụ – mà là một trợ lý nếu bạn biết cách dùng"
+- Nội dung:
+  Bạn sẽ học cách biến AI thành trợ lý cá nhân
+
+---
+
+## 6. OUTCOME SECTION
+- Layout: checklist
+- Nội dung:
+  - Hiểu mindset dùng AI đúng
+  - Biết dùng ChatGPT, Gemini, Gamma, NotebookLM
+  - Viết prompt ra kết quả dùng được
+  - Tạo workflow cá nhân
+
+---
+
+## 7. BEFORE / AFTER
+- Layout: 2 cột
+- Before:
+  Làm việc thủ công
+- After:
+  Có workflow AI tự động hỗ trợ
+
+---
+
+## 8. COURSE OVERVIEW
+- Background: trắng
+- Nội dung:
+  - 4 tiếng offline
+  - 30% lý thuyết – 70% thực hành
+  - 20-40 học viên
+
+---
+
+## 9. SYLLABUS TIMELINE
+- Layout: timeline ngang
+- Các block:
+  - AI mindset
+  - Tool map
+  - Prompt
+  - Use case
+  - Workflow
+
+---
+
+## 10. DEMO OUTPUT
+- Layout: mockup
+- Nội dung:
+  - Email
+  - Báo cáo
+  - Slide
+  - Tóm tắt tài liệu
+
+---
+
+## 11. HANDS-ON EXPERIENCE
+- Highlight:
+  "Bạn sẽ không chỉ học – bạn sẽ làm"
+
+---
+
+## 12. STUDENT RESULT (Proof)
+- Layout: testimonial giả lập
+- Nội dung:
+  - "Sau buổi học tôi tiết kiệm 2h/ngày"
+  - "Lần đầu hiểu cách dùng AI đúng"
+
+---
+
+## 13. BONUS / MATERIAL
+- Background: vàng nhạt
+- Nội dung:
+  - Prompt pack
+  - Template báo cáo
+  - Checklist tool
+  - Guideline kiểm tra output
+
+---
+
+## 14. WHO SHOULD JOIN
+- Layout: 2 cột
+- Nên:
+  staff, sinh viên
+- Không nên:
+  người đã dùng AI nâng cao
+
+---
+
+## 15. PRICING & OFFER
+- Layout: card
+- Giá pilot (gợi ý):
+  199k – 499k
+- Highlight:
+  Entry product
+
+---
+
+## 16. URGENCY
+- Nội dung:
+  - Chỉ 30 slot
+  - Workshop offline
+
+---
+
+## 17. CTA STRONG
+- Button lớn:
+  [Đăng ký ngay hôm nay]
+
+---
+
+## 18. FAQ
+- Các câu hỏi:
+  - Có cần biết AI trước không?
+  - Có cần laptop không?
+
+---
+
+## 19. FINAL CTA + UPSALE
+- Nội dung:
+  Sau khóa → học nâng cao automation
+- CTA:
+  [Đăng ký ngay]
+
+---
+
+## 20. FOOTER
+- Thông tin liên hệ
+- Logo
