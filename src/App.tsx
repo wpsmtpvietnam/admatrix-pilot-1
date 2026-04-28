@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { 
   Play, CheckCircle2, Workflow, Zap, Users, Clock, 
   LayoutDashboard, FileText, ChevronDown, Star, Gift, Phone,
-  Cpu, ArrowRight, XCircle, RefreshCw, Layers
+  Cpu, ArrowRight, XCircle, RefreshCw, Layers, MessagesSquare
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -217,7 +217,7 @@ export default function App() {
           <div className="flex flex-wrap items-center justify-center gap-6 mb-24">
              {[
                { icon: Clock, t: "4 tiếng offline" },
-               { icon: PieChartIcon: Zap, t: "30% lý thuyết – 70% thực hành" },
+               { icon: Zap, t: "30% lý thuyết – 70% thực hành" },
                { icon: Users, t: "20 - 40 học viên" }
              ].map((b,i) => (
                <div key={i} className="flex items-center gap-3 px-6 py-4 bg-white/5 border border-white/10 rounded-full">
